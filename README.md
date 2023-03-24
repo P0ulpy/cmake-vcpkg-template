@@ -39,7 +39,7 @@ __Exemple with SFML__ :
 
 In this exemple i override the `freetype` version to `2.10.0` (who is a font reading library) because sometime it cause an issues on windows.
 
-For further informations you check the [microsoft documentation about vcpkg.json](https://learn.microsoft.com/en-us/vcpkg/reference/vcpkg-json)
+For further informations you can check the [microsoft documentation about vcpkg.json](https://learn.microsoft.com/en-us/vcpkg/reference/vcpkg-json)
 
 ## Installing dependencies
 
