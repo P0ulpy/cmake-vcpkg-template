@@ -5,10 +5,8 @@ project(cmake-vcpkg-template)
 
 set(CMAKE_CXX_STANDARD 20)
 
-find_package(SFML COMPONENTS system window graphics CONFIG REQUIRED)
-find_package(GLEW REQUIRED)
+SET(EXECUTABLE_TARGET_NAME cmake-vcpkg-template-app)
 
-add_executable(cmake-vcpkg-template main.cpp Shader.cpp Shader.hpp)
-
-target_link_libraries(cmake-vcpkg-template PRIVATE sfml-system sfml-network sfml-graphics sfml-window)
-target_link_libraries(cmake-vcpkg-template PRIVATE GLEW::GLEW)
+add_executable(${EXECUTABLE_TARGET_NAME}
+    main.cpp
+)
