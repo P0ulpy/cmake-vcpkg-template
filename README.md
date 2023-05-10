@@ -18,12 +18,12 @@ __Bootstrap vcpkg :__
 
 _Windows_
 ```bash
-.\vcpkg\bootstrap-vcpkg.bat
+.\vcpkg\bootstrap-vcpkg.bat -disableMetrics
 ```
 
 _Unix_
 ```bash
-.\vcpkg\bootstrap-vcpkg.sh
+.\vcpkg\bootstrap-vcpkg.sh -disableMetrics
 ```
 
 ## Adding dependencies
