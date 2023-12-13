@@ -23,7 +23,7 @@ _Windows_
 
 _Unix_
 ```bash
-.\vcpkg\bootstrap-vcpkg.sh -disableMetrics
+./vcpkg/bootstrap-vcpkg.sh -disableMetrics
 ```
 
 ## Adding dependencies
