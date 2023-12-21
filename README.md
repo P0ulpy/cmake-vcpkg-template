@@ -146,7 +146,7 @@ Most of the time install issues with vcpkg are related to a dynamic library who 
 
 **Use SFML in our program to make sure our installation is working :**
 
-For this exemple we will use the [SFML tutorial](https://www.sfml-dev.org/tutorials/2.5/start-linux.php#compiling-a-sfml-program) to make sure our installation is working.
+For this exemple we will use the [SFML tutorial](https://www.sfml-dev.org/tutorials/2.6/start-linux.php#compiling-a-sfml-program) to make sure our installation is working.
 After pasting the exemple code in your `main.cpp` we can now compile our program and run it, you should see a window with a green circle in it and a title "SFML works!".
 
 Congratulations you have successfully installed SFML in your project !
