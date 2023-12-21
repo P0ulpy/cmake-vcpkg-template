@@ -16,7 +16,7 @@ Then run the bootstrap script
 ./bootstrap-workspace.bat
 ```
 
-*GNU/Linux with apt*
+*GNU/Linux using apt*
 
 Install necessary build tools and a C/C++ compiler
 ```bash
