@@ -79,6 +79,16 @@ Cmake will atomatically detect your compiler and generator
 ./build-release.sh
 ```
 
+**Run your program**
+You can now run the compiled program by looking into `out/Debug` or `out/Release`.
+The out directory hierarchy will be different depending on your generator.
+
+For exemple with Make generator in Debug mode run your program like that
+```bash
+# The executable name will change acording to the value set in add_executable(<name>, ...)
+./out/Debug/cmake-vcpkg-template-app
+```
+
 ## Adding dependencies exemple with SFML :
 
 In this exemple we will add SFML to our project, make it available in our cmake target and then compile a basic exemple program.
