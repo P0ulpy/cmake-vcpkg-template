@@ -11,9 +11,9 @@ You can change the name of the project in the `CMakeLists.txt` and `vcpkg.json` 
 
 Make sure you installed [Visual Studio](https://visualstudio.microsoft.com/) 
 
-Then run the bootstrap script
+Then run the bootstrap script from **repo root directory**
 ```bash
-./bootstrap-workspace.bat
+./scripts/bootstrap-workspace.bat
 ```
 
 *GNU/Linux using apt*
