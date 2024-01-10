@@ -12,21 +12,21 @@ You can change the name of the project in the `CMakeLists.txt` and `vcpkg.json` 
 Make sure you installed [Visual Studio](https://visualstudio.microsoft.com/) 
 
 Then run the bootstrap script from **repo root directory**
-```bash
-./scripts/bootstrap-workspace.bat
+```bat
+.\scripts\bootstrap-workspace.bat
 ```
 
 *GNU/Linux using apt*
 
 Install necessary build tools and a C/C++ compiler
-```bash
+```sh
 sudo apt-get update
 sudo apt-get install build-essential tar curl zip unzip autoconf libtool g++ gcc
 ```
 
 Then run the bootstrap script
-```bash
-./bootstrap-workspace.sh
+```sh
+./scripts/bootstrap-workspace.sh
 ```
 
 Well done your repo is now ready to work with cmake and vcpkg !
@@ -44,19 +44,19 @@ Running `generate-cmake-*.sh` or `generate-cmake-*.bat` will install dependencie
 Use it every times you add a dependency or modify `CMakeLists.txt`
 
 *Windows*
-```bash
+```sh
 # For debug build
-./generate-cmake-debug.bat
+.\scripts\generate-cmake-debug.bat
 # For release build
-./generate-cmake-release.bat
+.\scripts\generate-cmake-release.bat
 ```
 
 *Unix*
-```bash
+```sh
 # For debug build
-./generate-cmake-debug.sh
+./scripts/generate-cmake-debug.sh
 # For release build
-./generate-cmake-release.sh
+./scripts/generate-cmake-release.sh
 ```
 
 ## Compile your project
@@ -64,19 +64,19 @@ Use it every times you add a dependency or modify `CMakeLists.txt`
 Cmake will atomatically detect your compiler and generator 
 
 *Windows*
-```bash
+```sh
 # For debug build
-./build-debug.bat
+.\scripts\build-debug.bat
 # For release build
-./build-release.bat
+.\scripts\build-release.bat
 ```
 
 *Unix*
 ```bash
 # For debug build
-./build-debug.sh
+./scripts/build-debug.sh
 # For release build
-./build-release.sh
+./scripts/build-release.sh
 ```
 
 **Run your program**
@@ -135,8 +135,8 @@ add_executable(${EXECUTABLE_TARGET_NAME}
 ```
 
 You must reload your cmake project and reset cache in your IDE or directly with the cmake command to make it work.
-```bash
-./generate-cmake-debug.sh
+```sh
+./scripts/generate-cmake-debug.sh
 ```
 
 **In case of issues wile running vcpkg install**
