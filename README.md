@@ -39,7 +39,7 @@ You can found a exemple of adding dependencies in the [Installing dependencies](
 
 ## Generate your project
 
-Running `generate-cmake-*.sh` or `generate-cmake-*.bat` will install dependencies if required and then generate your cmake solution.
+Running `generate-cmake-*.sh` will install dependencies if required and then generate your cmake solution.
 
 Use it every times you add a dependency or modify `CMakeLists.txt`
 
