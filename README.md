@@ -110,7 +110,7 @@ In this exemple we will add SFML to our project, make it available in our cmake 
 }
 ```
 
-For further information you can check the [documentation or cmake integration using libraries](https://learn.microsoft.com/vcpkg/users/buildsystems/cmake-integration#using-libraries) or [microsoft documentation about vcpkg.json](https://learn.microsoft.com/en-us/vcpkg/reference/vcpkg-json) and [vcpkg documentation about manifests dependencies](https://learn.microsoft.com/vcpkg/concepts/manifest-mode)
+For further information you can check the [microsoft documentation about vcpkg.json](https://learn.microsoft.com/en-us/vcpkg/reference/vcpkg-json) and [vcpkg documentation about manifests dependencies](https://learn.microsoft.com/vcpkg/concepts/manifest-mode)
 
 **Add dependencies to your cmake target :**
 
@@ -161,6 +161,8 @@ After pasting the exemple code in your `main.cpp` we can now compile our program
 
 Congratulations you have successfully installed SFML in your project !
 You can now add any other dependencies you want.
+
+**To go deaper into cmake integration using vcpkg you can start by the** [microsoft documentation for cmake integration using libraries](https://learn.microsoft.com/vcpkg/users/buildsystems/cmake-integration#using-libraries)
 
 ## Misc.
 
