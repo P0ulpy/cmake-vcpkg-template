@@ -35,7 +35,7 @@ Well done your repo is now ready to work with cmake and vcpkg !
 
 You can add any vcpkg dependencies by editing `vcpkg.json` and then add them to you cmake target with `find_package()` and `target_link_libraries()`. You can found more information about cmake integration in the [vcpkg documentation](https://vcpkg.readthedocs.io/en/latest/users/integration/)
 
-You can found a exemple of adding dependencies in the [Installing dependencies](#adding-dependencies-exemple-with-sfml) section.
+You can found a exemple of adding dependencies in the [Installing dependencies](#adding-dependencies-exemple-with-sfml-) section.
 
 ## Generate your project
 
