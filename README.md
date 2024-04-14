@@ -33,7 +33,7 @@ Well done your repo is now ready to work with cmake and vcpkg !
 
 ## Add dependency
 
-You can add any vcpkg dependencies by editing `vcpkg.json` and then add them to you cmake target with `find_package()` and `target_link_libraries()`. You can found more information about cmake integration in the [vcpkg documentation](https://vcpkg.readthedocs.io/en/latest/users/integration/)
+You can add any vcpkg dependencies by editing `vcpkg.json` and then add them to you cmake target with `find_package()` and `target_link_libraries()`. You can found more information about cmake integration in the [vcpkg documentation](https://learn.microsoft.com/vcpkg/concepts/manifest-mode)
 
 You can found a exemple of adding dependencies in the [Installing dependencies exemple with SFML](#adding-dependencies-exemple-with-sfml-) section.
 
@@ -110,7 +110,7 @@ In this exemple we will add SFML to our project, make it available in our cmake 
 }
 ```
 
-For further information you can check the [microsoft documentation about vcpkg.json](https://learn.microsoft.com/en-us/vcpkg/reference/vcpkg-json) and [vcpkg documentation about manifests dependencies](https://vcpkg.readthedocs.io/en/latest/specifications/manifests/)
+For further information you can check the [microsoft documentation about vcpkg.json](https://learn.microsoft.com/en-us/vcpkg/reference/vcpkg-json) and [vcpkg documentation about manifests dependencies](https://learn.microsoft.com/vcpkg/concepts/manifest-mode)
 
 **Add dependencies to your cmake target :**
 
