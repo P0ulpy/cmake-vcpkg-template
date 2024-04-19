@@ -139,7 +139,7 @@ You must reload your cmake project and reset cache in your IDE or directly with 
 ./scripts/generate-cmake-debug.sh
 ```
 
-**In case of issues wile running vcpkg install**
+**In case of issues while running vcpkg install**
 
 Pay attention at this kind of message of vcpkg :
 ```
