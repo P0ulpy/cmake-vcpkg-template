@@ -61,7 +61,7 @@ Use it every times you add a dependency or modify `CMakeLists.txt`
 
 ## Compile your project
 
-Cmake will atomatically detect your compiler and generator 
+Cmake will automatically detect your compiler and generator. Feel free to modifiy build scripts to match your needs.
 
 *Windows*
 ```sh
