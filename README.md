@@ -1,3 +1,4 @@
+[![CMake Build on multiple platforms](https://github.com/P0ulpy/cmake-vcpkg-template/actions/workflows/cmake-build-multi-platform.yml/badge.svg)](https://github.com/P0ulpy/cmake-vcpkg-template/actions/workflows/cmake-build-multi-platform.yml)
 # Cmake & vcpkg template
 
 This is a template repository made to quickly set up a project using cmake & vcpkg.
