@@ -7,9 +7,11 @@ You can change the name of the project in the `CMakeLists.txt` and `vcpkg.json` 
 
 ## Bootstrap workspace
 
+Make sure you installed [CMake](https://cmake.org/download).
+
 *Windows*
 
-Make sure you installed [Visual Studio](https://visualstudio.microsoft.com/) 
+Make sure you installed [Visual Studio](https://visualstudio.microsoft.com/) with [C and C++ support](https://learn.microsoft.com/cpp/build/vscpp-step-0-installation?view=msvc-170#step-4---choose-workloads) and [C++ linux development with cmake](https://learn.microsoft.com/cpp/linux/download-install-and-setup-the-linux-development-workload?view=msvc-170#visual-studio-setup).
 
 Then run the bootstrap script
 ```bat
