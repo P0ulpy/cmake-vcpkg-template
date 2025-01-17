@@ -43,7 +43,7 @@ You can found a exemple of adding dependencies in the [Installing dependencies e
 
 Running `generate-cmake-*.sh` will install dependencies if required and then generate your cmake solution.
 
-Use it every times you add a dependency or modify `CMakeLists.txt`
+Use it every times you add file, a dependency or modify `CMakeLists.txt`
 
 *Windows*
 ```sh
